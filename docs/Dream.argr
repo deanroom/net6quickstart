@@ -1,0 +1,30 @@
+<ArchitectureGraph>
+  <Module Identifier="FF3F3A0C-1752-4765-BCFB-8CA52DAE40CE" Name="Device.Abstractions" />
+  <Module Identifier="2E294A96-4493-4065-9CFD-0CA486B9D45A" Name="Runtime.Abstractions" />
+  <Module Identifier="A5AE79DE-6D1C-4937-8D02-FCB11F556B06" Name="Device.Implementation" />
+  <Module Identifier="A806267D-0A6B-4E7A-B551-A4D99697A78A" Name="Framework.Abstractions" />
+  <Module Identifier="0A42BBF3-0187-487F-B39A-C092832FAE3A" Name="Runtime.Implementation" />
+  <Module Identifier="C5AF9D46-E2A1-42B8-B570-9817E38C9EBB" Name="Core.Abstractions" />
+  <Module Identifier="78CEB650-718B-4FB3-9017-F40DCA03FBEF" Name="Core.Implementation" />
+  <Module Identifier="582909EC-350B-4805-8C1B-122FB9755BD8" Name="Framework.Implementations" />
+  <Module Identifier="634CAF62-5DCA-4FB2-AEBE-0583B8766583" Name="App.Terminal" />
+  <Reference Identifier="FF3F3A0C-1752-4765-BCFB-8CA52DAE40CE/r:Runtime.Abstractions" SourceId="FF3F3A0C-1752-4765-BCFB-8CA52DAE40CE" Name="Runtime.Abstractions" TargetId="2E294A96-4493-4065-9CFD-0CA486B9D45A" />
+  <Reference Identifier="A5AE79DE-6D1C-4937-8D02-FCB11F556B06/r:Framework.Abstractions" SourceId="A5AE79DE-6D1C-4937-8D02-FCB11F556B06" Name="Framework.Abstractions" TargetId="A806267D-0A6B-4E7A-B551-A4D99697A78A" />
+  <Reference Identifier="A5AE79DE-6D1C-4937-8D02-FCB11F556B06/r:Runtime.Abstractions" SourceId="A5AE79DE-6D1C-4937-8D02-FCB11F556B06" Name="Runtime.Abstractions" TargetId="2E294A96-4493-4065-9CFD-0CA486B9D45A" />
+  <Reference Identifier="0A42BBF3-0187-487F-B39A-C092832FAE3A/r:Runtime.Abstractions" SourceId="0A42BBF3-0187-487F-B39A-C092832FAE3A" Name="Runtime.Abstractions" TargetId="2E294A96-4493-4065-9CFD-0CA486B9D45A" />
+  <Reference Identifier="A5AE79DE-6D1C-4937-8D02-FCB11F556B06/r:Runtime.Implementation" SourceId="A5AE79DE-6D1C-4937-8D02-FCB11F556B06" Name="Runtime.Implementation" TargetId="0A42BBF3-0187-487F-B39A-C092832FAE3A" />
+  <Reference Identifier="A5AE79DE-6D1C-4937-8D02-FCB11F556B06/r:Device.Abstractions" SourceId="A5AE79DE-6D1C-4937-8D02-FCB11F556B06" Name="Device.Abstractions" TargetId="FF3F3A0C-1752-4765-BCFB-8CA52DAE40CE" />
+  <Reference Identifier="C5AF9D46-E2A1-42B8-B570-9817E38C9EBB/r:Device.Abstractions" SourceId="C5AF9D46-E2A1-42B8-B570-9817E38C9EBB" Name="Device.Abstractions" TargetId="FF3F3A0C-1752-4765-BCFB-8CA52DAE40CE" />
+  <Reference Identifier="C5AF9D46-E2A1-42B8-B570-9817E38C9EBB/r:Runtime.Abstractions" SourceId="C5AF9D46-E2A1-42B8-B570-9817E38C9EBB" Name="Runtime.Abstractions" TargetId="2E294A96-4493-4065-9CFD-0CA486B9D45A" />
+  <Reference Identifier="78CEB650-718B-4FB3-9017-F40DCA03FBEF/r:Framework.Abstractions" SourceId="78CEB650-718B-4FB3-9017-F40DCA03FBEF" Name="Framework.Abstractions" TargetId="A806267D-0A6B-4E7A-B551-A4D99697A78A" />
+  <Reference Identifier="78CEB650-718B-4FB3-9017-F40DCA03FBEF/r:Core.Abstractions" SourceId="78CEB650-718B-4FB3-9017-F40DCA03FBEF" Name="Core.Abstractions" TargetId="C5AF9D46-E2A1-42B8-B570-9817E38C9EBB" />
+  <Reference Identifier="78CEB650-718B-4FB3-9017-F40DCA03FBEF/r:Device.Abstractions" SourceId="78CEB650-718B-4FB3-9017-F40DCA03FBEF" Name="Device.Abstractions" TargetId="FF3F3A0C-1752-4765-BCFB-8CA52DAE40CE" />
+  <Reference Identifier="78CEB650-718B-4FB3-9017-F40DCA03FBEF/r:Runtime.Abstractions" SourceId="78CEB650-718B-4FB3-9017-F40DCA03FBEF" Name="Runtime.Abstractions" TargetId="2E294A96-4493-4065-9CFD-0CA486B9D45A" />
+  <Reference Identifier="582909EC-350B-4805-8C1B-122FB9755BD8/r:Framework.Abstractions" SourceId="582909EC-350B-4805-8C1B-122FB9755BD8" Name="Framework.Abstractions" TargetId="A806267D-0A6B-4E7A-B551-A4D99697A78A" />
+  <Reference Identifier="634CAF62-5DCA-4FB2-AEBE-0583B8766583/r:Core.Abstractions" SourceId="634CAF62-5DCA-4FB2-AEBE-0583B8766583" Name="Core.Abstractions" TargetId="C5AF9D46-E2A1-42B8-B570-9817E38C9EBB" />
+  <Reference Identifier="634CAF62-5DCA-4FB2-AEBE-0583B8766583/r:Core.Implementation" SourceId="634CAF62-5DCA-4FB2-AEBE-0583B8766583" Name="Core.Implementation" TargetId="78CEB650-718B-4FB3-9017-F40DCA03FBEF" />
+  <Reference Identifier="634CAF62-5DCA-4FB2-AEBE-0583B8766583/r:Framework.Implementations" SourceId="634CAF62-5DCA-4FB2-AEBE-0583B8766583" Name="Framework.Implementations" TargetId="582909EC-350B-4805-8C1B-122FB9755BD8" />
+  <Reference Identifier="634CAF62-5DCA-4FB2-AEBE-0583B8766583/r:Device.Abstractions" SourceId="634CAF62-5DCA-4FB2-AEBE-0583B8766583" Name="Device.Abstractions" TargetId="FF3F3A0C-1752-4765-BCFB-8CA52DAE40CE" />
+  <Reference Identifier="634CAF62-5DCA-4FB2-AEBE-0583B8766583/r:Framework.Abstractions" SourceId="634CAF62-5DCA-4FB2-AEBE-0583B8766583" Name="Framework.Abstractions" TargetId="A806267D-0A6B-4E7A-B551-A4D99697A78A" />
+  <Reference Identifier="634CAF62-5DCA-4FB2-AEBE-0583B8766583/r:Runtime.Abstractions" SourceId="634CAF62-5DCA-4FB2-AEBE-0583B8766583" Name="Runtime.Abstractions" TargetId="2E294A96-4493-4065-9CFD-0CA486B9D45A" />
+</ArchitectureGraph>

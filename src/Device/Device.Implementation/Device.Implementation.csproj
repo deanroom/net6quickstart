@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Framework\Framework.Abstractions\Framework.Abstractions.csproj" />
+      <ProjectReference Include="..\..\Runtime\Runtime.Abstractions\Runtime.Abstractions.csproj" />
+      <ProjectReference Include="..\..\Runtime\Runtime.Implementation\Runtime.Implementation.csproj" />
+      <ProjectReference Include="..\Device.Abstractions\Device.Abstractions.csproj" />
+    </ItemGroup>
+
+</Project>
